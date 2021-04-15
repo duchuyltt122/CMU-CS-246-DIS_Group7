@@ -49,8 +49,8 @@ public class Project extends JFrame {
 		btnHinhHopChuNhat.setFont(new Font("Segoe UI", Font.PLAIN, 12));
 		btnHinhHopChuNhat.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-//				HinhHopChuNhat f=new HinhHopChuNhat();
-//				f.setVisible(true);			
+				HinhHopChuNhat f=new HinhHopChuNhat();
+				f.setVisible(true);			
 			}
 		});
 		btnHinhHopChuNhat.setBounds(150, 10, 146, 34);
@@ -59,8 +59,8 @@ public class Project extends JFrame {
 		JButton btnHinhChop = new JButton("H\u00ECnh Ch\u00F3p");
 		btnHinhChop.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-//				HinhChop f=new HinhChop();
-//				f.setVisible(true);	
+				HinhChop f=new HinhChop();
+				f.setVisible(true);	
 			}
 		});
 		btnHinhChop.setFont(new Font("Segoe UI", Font.PLAIN, 12));
@@ -70,8 +70,8 @@ public class Project extends JFrame {
 		JButton btnHinhCau = new JButton("H\u00ECnh C\u1EA7u");
 		btnHinhCau.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-//				HinhCau f=new HinhCau();
-//				f.setVisible(true);	
+				HinhCau f=new HinhCau();
+				f.setVisible(true);	
 			}
 		});
 		btnHinhCau.setFont(new Font("Segoe UI", Font.PLAIN, 12));
@@ -81,8 +81,8 @@ public class Project extends JFrame {
 		JButton btnHinhLangTru = new JButton("L\u0103ng Tr\u1EE5 Tam Gi\u00E1c");
 		btnHinhLangTru.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-//				HinhLangTruTamGiac f=new HinhLangTruTamGiac();
-//				f.setVisible(true);	
+				HinhLangTruTamGiac f=new HinhLangTruTamGiac();
+				f.setVisible(true);	
 			}
 		});
 		btnHinhLangTru.setFont(new Font("Segoe UI", Font.PLAIN, 12));
@@ -92,8 +92,8 @@ public class Project extends JFrame {
 		JButton btnNewButton = new JButton("H\u00ECnh Tr\u1EE5");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-//				HinhTru f=new HinhTru();
-//				f.setVisible(true);	
+				HinhTru f=new HinhTru();
+				f.setVisible(true);	
 			}
 		});
 		btnNewButton.setFont(new Font("Segoe UI", Font.PLAIN, 12));
