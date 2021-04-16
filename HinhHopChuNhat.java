@@ -126,15 +126,15 @@ public class HinhHopChuNhat extends JFrame {
 //	 * Launch the application.
 //	 */
 //	function nay la khi khoi tao se chay GUI
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					HinhHopChuNhat frame = new HinhHopChuNhat();
-					frame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}		});
-	}
+// 	public static void main(String[] args) {
+// 		EventQueue.invokeLater(new Runnable() {
+// 			public void run() {
+// 				try {
+// 					HinhHopChuNhat frame = new HinhHopChuNhat();
+// 					frame.setVisible(true);
+// 				} catch (Exception e) {
+// 					e.printStackTrace();
+// 				}
+// 			}		});
+// 	}
 }
