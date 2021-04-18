@@ -26,19 +26,19 @@ public class Chop_Deu extends JFrame {
 	 * Launch the application.
 	 */
 	//function nay la khi khoi tao se chay GUI
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					Chop_Deu frame = new Chop_Deu();
-					frame.setLocationRelativeTo(null);
-					frame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
-	}
+// 	public static void main(String[] args) {
+// 		EventQueue.invokeLater(new Runnable() {
+// 			public void run() {
+// 				try {
+// 					Chop_Deu frame = new Chop_Deu();
+// 					frame.setLocationRelativeTo(null);
+// 					frame.setVisible(true);
+// 				} catch (Exception e) {
+// 					e.printStackTrace();
+// 				}
+// 			}
+// 		});
+// 	}
 
 	/**
 	 * Create the frame.
@@ -46,7 +46,7 @@ public class Chop_Deu extends JFrame {
 	//Thiet lap khoi tao GUI
 	public Chop_Deu() {
 		setTitle("Dien tich xung quanh hinh chop deu");
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
