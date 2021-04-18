@@ -26,19 +26,19 @@ public class HinhLangTruTamGiac extends JFrame {
 	 * Launch the application.
 	 */
 	//function nay la khi khoi tao se chay GUI
- 	public static void main(String[] args) {
- 		EventQueue.invokeLater(new Runnable() {
- 			public void run() {
- 				try {
- 					HinhLangTruTamGiac frame = new HinhLangTruTamGiac();
- 					frame.setLocationRelativeTo(null);
- 					frame.setVisible(true);
- 				} catch (Exception e) {
- 					e.printStackTrace();
- 				}
- 			}
- 		});
- 	}
+//  	public static void main(String[] args) {
+//  		EventQueue.invokeLater(new Runnable() {
+//  			public void run() {
+//  				try {
+//  					HinhLangTruTamGiac frame = new HinhLangTruTamGiac();
+//  					frame.setLocationRelativeTo(null);
+//  					frame.setVisible(true);
+//  				} catch (Exception e) {
+//  					e.printStackTrace();
+//  				}
+//  			}
+//  		});
+//  	}
 
 	/**
 	 * Create the frame.
